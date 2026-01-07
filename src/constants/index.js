@@ -1,0 +1,505 @@
+import {
+  portfolio,
+  tt,
+  stedaxis,
+  jspiders,
+  homiefix,
+  worknexus,
+  flipzy,
+  ponjesly,
+  bapuji,
+  icon,
+} from "../assets";
+
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillMail,
+  AiFillHtml5,
+} from "react-icons/ai";
+
+import {
+  SiJavascript,
+  SiBootstrap,
+  SiSpringboot,
+  SiReact,
+  SiPython,
+  SiExpress,
+  SiPostman,
+  SiGit,
+  SiMysql,
+  SiNetlify,
+  SiVite,
+  SiIntellijidea,
+  SiEclipseide,
+  SiMongodb,
+  SiFastapi,
+  SiPrisma,
+  SiMongoose,
+  SiHibernate,
+  SiSqlalchemy,
+  SiTailwindcss,
+  SiRazorpay,
+  SiCloudinary,
+  SiTwilio,
+  SiBrevo,
+} from "react-icons/si";
+
+import { FaNodeJs } from "react-icons/fa";
+import { DiCss3, DiJava } from "react-icons/di";
+import { BiLogoVisualStudio } from "react-icons/bi";
+
+export const resumeLink =
+  "https://drive.google.com/file/d/1thwAK7XQLIj0OjG2ZOk79ymjyyS_Tim9/view?usp=sharing";
+export const repoLink = "https://github.com/shajai63?tab=repositories";
+
+export const callToAction = "https://www.linkedin.com/in/shajai56/";
+
+export const navLinks = [
+  {
+    id: "skills",
+    title: "Skills & Experience",
+  },
+  {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contactMe",
+    title: "Contact Me",
+  },
+];
+
+// Add your past academic experiences here
+export const educationList = [
+  {
+    id: "education-1",
+    icon: ponjesly,
+    title: "Ponjesly College of Engineering",
+    degree: "Bachelor of Technology",
+    duration: "Aug 2019 - May 2023",
+    content1: "Major: Information Technology",
+    content2: "CGPA: 7.5/10",
+  },
+  {
+    id: "education-2",
+    icon: bapuji,
+    title: "Bapuji Memorial Higher Secondary School",
+    degree: "HSC",
+    duration: "Jun 2018 - May 2019",
+    content1:
+      "Major: Biology, Physics, Chemistry, Mathematics",
+    content2: "Percentage: 64%",
+  },
+];
+
+// Add your software developments skills here for example - programming languages, frameworks etc.
+export const skills = [
+  {
+    title: "Programming Languages",
+    items: [
+      {
+        id: "pl-1",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "pl-2",
+        icon: FaNodeJs,
+        name: "Node.js",
+      },
+      {
+        id: "pl-3",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      // {
+      //   id: "pl-4",
+      //   icon: SiPython,
+      //   name: "Python",
+      // },
+      {
+        id: "pl-5",
+        icon: DiCss3,
+        name: "CSS",
+      },
+      {
+        id: "pl-6",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+    ],
+  }
+  ,
+  {
+    title: "Databases",
+    items: [
+      {
+        id: "db-1",
+        icon: SiMysql,
+        name: "MySQL",
+      },
+
+      {
+        id: "db-2",
+        icon: SiMongodb,
+        name: "Mongo DB"
+      }
+    ],
+  },
+  {
+    title: "Frameworks/Libraries",
+    items: [
+      {
+        id: "f-0",
+        icon: SiSpringboot,
+        name: "Spring Boot",
+      },
+      {
+        id: "f-1",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      // {
+      //   id: "f-2",
+      //   icon: SiFastapi,
+      //   name: "Fast API"
+      // },
+      {
+        id: "f-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "f-4",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "f-5",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+    ],
+  },
+  {
+    title: "ORMs",
+    items: [
+      {
+        id: "o-1",
+        icon: SiHibernate,
+        name: "Hibernate"
+      },
+      {
+        id: "o-2",
+        icon: SiPrisma,
+        name: "Prisma"
+      },
+      {
+        id: "o-3",
+        icon: SiMongoose,
+        name: "Mongoose"
+      },
+    ]
+  },
+  {
+    title: "Third-Party APIs",
+    items: [
+      {
+        id: "tp-1",
+        icon: SiRazorpay,
+        name: "Razorpay"
+      },
+      {
+        id: "tp-2",
+        icon: SiCloudinary,
+        name: "Cloudinary"
+      },
+      {
+        id: "tp-3",
+        icon: SiTwilio,
+        name: "Twilio"
+      },
+    ]
+  },
+
+  {
+    title: "Tools",
+    items: [
+      {
+        id: "t-1",
+        icon: SiIntellijidea,
+        name: "Intellijidea",
+      },
+      {
+        id: "t-2",
+        icon: BiLogoVisualStudio,
+        name: "VS Code",
+      },
+      {
+        id: "t-3",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "t-4",
+        icon: SiGit,
+        name: "Git",
+      },
+      {
+        id: "t-5",
+        icon: AiFillGithub,
+        name: "GitHub",
+      },
+    ],
+  },
+];
+
+// Add your current/past professional work experience here
+export const experiences = [
+
+  {
+    organisation: "Stedaxis, Nagercoil",
+    logo: stedaxis,
+    link: "https://averlon.ai/",
+    positions: [
+      {
+        title: "FullStack Developer",
+        duration: "Oct 2025 - Present",
+        content: [
+          {
+            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    organisation: "Talentturbo Technologies Pvt Ltd, Nagercoil",
+    logo: tt,
+    link: "https://www.talentturbo.us/",
+    positions: [
+      {
+        title: "FullStack Developer",
+        duration: "Sep 2024 - Sep 2025",
+        content: [
+          {
+            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    organisation: "JSpiders, Bangalore",
+    logo: jspiders,
+    link: "https://iris.nitk.ac.in/about_us",
+    positions: [
+      {
+        title: "Java FullStack Developement",
+        duration: "Aug 2023 - Apr 2024",
+        content: [
+          {
+            text: "Trained as a Java Fullstack Developer with expertise in Spring Boot, React.js, and MySQL",
+            link: "",
+          },
+          {
+            text: "Built end-to-end web applications with RESTful APIs and responsive user interfaces.",
+            link: "",
+          },
+          {
+            text: "Focused on real-time project development, code management, and frontend-backend integration.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+
+];
+
+// Add information about all the projects to be listed out in your portfolio
+export const projects = [
+  {
+    id: "project-1",
+    title: "HomieFix",
+    github: "https://github.com/shajai63?tab=repositories",
+    link: "https://homiefix.in/",
+    image: homiefix,
+    content:
+      "Developed the HomieFix web app to connect users with home service providers, using React.js for the frontend and Spring Boot for the backend.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSpringboot,
+        name: "Springboot",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title: "Flipzy",
+    github: "https://github.com/shajai63?tab=repositories",
+    link: "https://drive.google.com/file/d/1LEwietK2vBv2FtYMClyyijzF4AR1k7ds/view?usp=sharing",
+    image: flipzy,
+    content:
+      "Developed a full-stack e-commerce platform using microservice architecture with React frontend and Spring Boot backend. Payment implementation via Razorpay.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSpringboot,
+        name: "Springboot",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "Worknexus",
+    github: "https://github.com/shajai63?tab=repositories",
+    link: "e",
+    image: worknexus,
+    content:
+      "Developed WorkNexus, a collaborative web application designed to streamline task management and team coordination.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSpringboot,
+        name: "Springboot",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+    ],
+  },
+
+  {
+    id: "project-4",
+    title: "Portfolio",
+    github: "https://github.com/shajai63?tab=repositories",
+    link: "https://shajai63.github.io/Portfolio/",
+    image: portfolio,
+    content: "Created a personal portfolio website using React, Bootstrap, and Vite to showcase my projects and skills.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-4",
+        icon: DiCss3,
+        name: "CSS",
+      },
+    ],
+  },
+];
+
+// Links to your social media profiles
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: AiFillLinkedin,
+    link: "https://www.linkedin.com/in/shajai56/",
+  },
+  {
+    id: "social-media-2",
+    icon: AiFillGithub,
+    link: "https://github.com/shajai63",
+  },
+  {
+    id: "social-media-3",
+    icon: AiFillMail,
+    link: "mailto:shajai.contact@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    icon: AiFillInstagram,
+    link: "https://www.instagram.com/__.shajai.__/",
+  },
+];
+
+// Your professional summary
+export const aboutMe = {
+  name: "Shajai SJ",
+  githubUsername: "shajai63",
+  tagLine:
+    "Java FullStack Developer | EnterKey Solutions",
+  intro:
+    "Software Developer from India who is either busy improving his craft or pondering over the next big idea.",
+};
