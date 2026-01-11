@@ -52,7 +52,7 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1thwAK7XQLIj0OjG2ZOk79ymjyyS_Tim9/view?usp=sharing";
-export const repoLink = "https://github.com/shajai63?tab=repositories";
+export const repoLink = "https://github.com/shajai56?tab=repositories";
 
 export const callToAction = "https://www.linkedin.com/in/shajai56/";
 
@@ -332,7 +332,7 @@ export const projects = [
   {
     id: "project-1",
     title: "HomieFix",
-    github: "https://github.com/shajai63?tab=repositories",
+    github: "https://github.com/shajai56?tab=repositories",
     link: "https://homiefix.in/",
     image: homiefix,
     content:
@@ -368,7 +368,7 @@ export const projects = [
   {
     id: "project-2",
     title: "Flipzy",
-    github: "https://github.com/shajai63?tab=repositories",
+    github: "https://github.com/shajai56?tab=repositories",
     link: "https://drive.google.com/file/d/1LEwietK2vBv2FtYMClyyijzF4AR1k7ds/view?usp=sharing",
     image: flipzy,
     content:
@@ -404,7 +404,7 @@ export const projects = [
   {
     id: "project-3",
     title: "Worknexus",
-    github: "https://github.com/shajai63?tab=repositories",
+    github: "https://github.com/shajai56?tab=repositories",
     link: "e",
     image: worknexus,
     content:
@@ -441,8 +441,8 @@ export const projects = [
   {
     id: "project-4",
     title: "Portfolio",
-    github: "https://github.com/shajai63?tab=repositories",
-    link: "https://shajai63.github.io/Portfolio/",
+    github: "https://github.com/shajai56?tab=repositories",
+    link: "https://shajai56.github.io/Portfolio/",
     image: portfolio,
     content: "Created a personal portfolio website using React, Bootstrap, and Vite to showcase my projects and skills.",
     stack: [
@@ -480,7 +480,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/shajai63",
+    link: "https://github.com/shajai56",
   },
   {
     id: "social-media-3",
