@@ -291,7 +291,7 @@ export const experiences = [
         duration: "Sep 2024 - Sep 2025",
         content: [
           {
-            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
+            text: "Worked as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
             link: "",
           },
         ],
