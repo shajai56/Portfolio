@@ -44,6 +44,7 @@ import {
   SiCloudinary,
   SiTwilio,
   SiBrevo,
+  SiNextdotjs,
 } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
@@ -162,14 +163,14 @@ export const skills = [
       },
       {
         id: "f-1",
+        icon: SiNextdotjs,
+        name: "Next.js",
+      },
+      {
+        id: "f-2",
         icon: SiExpress,
         name: "Express.js",
       },
-      // {
-      //   id: "f-2",
-      //   icon: SiFastapi,
-      //   name: "Fast API"
-      // },
       {
         id: "f-3",
         icon: SiReact,
@@ -273,7 +274,7 @@ export const experiences = [
         duration: "Oct 2025 - Present",
         content: [
           {
-            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
+            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, Next.js, React.js and MySQL.",
             link: "",
           },
         ],
