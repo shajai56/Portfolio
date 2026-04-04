@@ -45,6 +45,7 @@ import {
   SiTwilio,
   SiBrevo,
   SiNextdotjs,
+  SiPostgresql,
 } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
@@ -52,7 +53,7 @@ import { DiCss3, DiJava } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1thwAK7XQLIj0OjG2ZOk79ymjyyS_Tim9/view?usp=sharing";
+  "https://drive.google.com/file/d/1UoWBQPzp1UkR1gENBDIw-9M7hJ-9Kg4K/view?usp=sharing";
 export const repoLink = "https://github.com/shajai56?tab=repositories";
 
 export const callToAction = "https://www.linkedin.com/in/shajai56/";
@@ -142,12 +143,17 @@ export const skills = [
     items: [
       {
         id: "db-1",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
+      },
+      {
+        id: "db-2",
         icon: SiMysql,
         name: "MySQL",
       },
 
       {
-        id: "db-2",
+        id: "db-3",
         icon: SiMongodb,
         name: "Mongo DB"
       }
