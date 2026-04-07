@@ -3,12 +3,10 @@ import {
   tt,
   stedaxis,
   jspiders,
-  homiefix,
   worknexus,
   flipzy,
   ponjesly,
   bapuji,
-  icon,
 } from "../assets";
 
 import {
@@ -24,28 +22,25 @@ import {
   SiBootstrap,
   SiSpringboot,
   SiReact,
-  SiPython,
   SiExpress,
   SiPostman,
   SiGit,
   SiMysql,
-  SiNetlify,
-  SiVite,
   SiIntellijidea,
-  SiEclipseide,
   SiMongodb,
-  SiFastapi,
   SiPrisma,
   SiMongoose,
   SiHibernate,
-  SiSqlalchemy,
   SiTailwindcss,
   SiRazorpay,
   SiCloudinary,
   SiTwilio,
-  SiBrevo,
   SiNextdotjs,
   SiPostgresql,
+  SiDocker,
+  SiHostinger,
+  SiVercel,
+  SiCpanel,
 } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
@@ -234,7 +229,31 @@ export const skills = [
       },
     ]
   },
-
+  {
+    title: "Deployment",
+    items: [
+      {
+        id: "d-1",
+        icon: SiDocker,
+        name: "Docker"
+      },
+      {
+        id: "d-2",
+        icon: SiHostinger,
+        name: "Hostinger"
+      },
+      {
+        id: "d-3",
+        icon: SiVercel,
+        name: "Vercel"
+      },
+      {
+        id: "d-4",
+        icon: SiCpanel,
+        name: "cPanel"
+      }
+    ]
+  },
   {
     title: "Tools",
     items: [
@@ -273,16 +292,24 @@ export const experiences = [
   {
     organisation: "Stedaxis, Nagercoil",
     logo: stedaxis,
-    link: "https://averlon.ai/",
+    link: "https://www.stedaxis.com.au/",
     positions: [
       {
         title: "FullStack Developer",
         duration: "Oct 2025 - Present",
         content: [
           {
-            text: "Working as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, Next.js, React.js and MySQL.",
+            text: "Working as a Fullstack Developer, building RESTful APIs using Node.js and Express.js with JWT-based authentication and Prisma for MySQL, PostgreSQL, and MongoDB.",
             link: "",
           },
+          {
+            text: "Built SSR-enabled UI using Next.js and React.js with efficient state management and API integration.",
+            link: "",
+          },
+          {
+            text: "Optimized performance through query tuning, caching strategies, and scalable modular architecture.",
+            link: "",
+          }
         ],
       },
     ],
@@ -298,9 +325,17 @@ export const experiences = [
         duration: "Sep 2024 - Sep 2025",
         content: [
           {
-            text: "Worked as a Java Fullstack Developer, building and maintaining scalable web applications using Spring Boot, React.js and MySQL.",
+            text: "Worked as a Fullstack Developer, developing RESTful microservices using Spring Boot with JWT-based authentication and MySQL via JPA/Hibernate.",
             link: "",
           },
+          {
+            text: "Built responsive UI using React.js with efficient state management and seamless API integration.",
+            link: "",
+          },
+          {
+            text: "Optimized performance through query tuning, caching strategies, and scalable modular architecture.",
+            link: "",
+          }
         ],
       },
     ],
@@ -309,7 +344,7 @@ export const experiences = [
   {
     organisation: "JSpiders, Bangalore",
     logo: jspiders,
-    link: "https://iris.nitk.ac.in/about_us",
+    link: "https://mail.jspiders.com/",
     positions: [
       {
         title: "Java FullStack Developement",
@@ -336,42 +371,42 @@ export const experiences = [
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
-  {
-    id: "project-1",
-    title: "HomieFix",
-    github: "https://github.com/shajai56?tab=repositories",
-    link: "https://homiefix.in/",
-    image: homiefix,
-    content:
-      "Developed the HomieFix web app to connect users with home service providers, using React.js for the frontend and Spring Boot for the backend.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "icon-2",
-        icon: SiSpringboot,
-        name: "Springboot",
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiMysql,
-        name: "Mysql",
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-    ],
-  },
+  // {
+  //   id: "project-1",
+  //   title: "HomieFix",
+  //   github: "https://github.com/shajai56?tab=repositories",
+  //   link: "https://homiefix.in/",
+  //   image: homiefix,
+  //   content:
+  //     "Developed the HomieFix web app to connect users with home service providers, using React.js for the frontend and Spring Boot for the backend.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: DiJava,
+  //       name: "Java",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiSpringboot,
+  //       name: "Springboot",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiReact,
+  //       name: "React.js",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiMysql,
+  //       name: "Mysql",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap",
+  //     },
+  //   ],
+  // },
   {
     id: "project-2",
     title: "Flipzy",
